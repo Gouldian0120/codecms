@@ -9,9 +9,9 @@
 
 # Python
 *.pyc
-/build/
-/docs/_build/
-/dist/
+build/
+_build/
+dist/
 __pycache__
 codered_cms.egg-info/
 coderedcms.egg-info/
@@ -27,7 +27,6 @@ htmlcov/
 junit/
 coverage.xml
 testproject*/
-.cache
 testmedia*/
 teststatic*/
-media/
+*.sqlite3
